@@ -1,0 +1,55 @@
+.top {
+  background-color: blueviolet;
+  height: 60px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topIcon {
+  font-size: 3px;
+  margin-right: 10px;
+  color: green;
+  cursor: pointer;
+}
+.topImg {
+  width: 40px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 40%;
+}
+.topCenter {
+  flex: 6;
+}
+
+.topList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.topSearchIcon {
+  color: green;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 15px;
+}
